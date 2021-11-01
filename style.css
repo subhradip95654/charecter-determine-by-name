@@ -59,3 +59,9 @@ button:hover
     background: white;
     cursor: pointer;
 }
+.credit
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -25px;
+}
