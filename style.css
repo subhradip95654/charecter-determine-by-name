@@ -1,0 +1,61 @@
+*{
+    font-family: 'Patrick Hand SC', cursive;
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+.mainclass
+{
+    border: 2px solid red;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 530px;
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-transform: uppercase;
+}
+.details label {
+    font-size: 2rem;
+}
+.details input{
+    padding : 5px;
+    margin-top: 5px;
+    width: 290px;
+    margin-left: 245px;
+    background-color: #ff6b81;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.pic{
+    padding-top: 25px;
+    margin-left: 247px;
+}
+button{
+    margin-top: 10px;
+    padding-top: 10px 0px;
+    margin-left: 320px;
+    width: 180px;
+    background: #3498db;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+button:hover
+{
+    color: #3498db;
+    font-weight: bolder;
+    background: white;
+    cursor: pointer;
+}
